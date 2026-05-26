@@ -1,6 +1,6 @@
 OUT:=clamav-prometheus-exporter
-OWNER:=shukla2009
-VERSION:=1.0.2
+OWNER:=rekzi
+VERSION:=latest
 IMAGE:=$(OWNER)/$(OUT):$(VERSION)
 IMAGE_EXTRA_ARGS?=
 
